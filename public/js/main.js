@@ -63,6 +63,7 @@
 		leftCtrl : DOM.content.querySelector('nav > .btn--nav-left'),
 		rightCtrl : DOM.content.querySelector('nav > .btn--nav-right')
 	};
+	
 	// Content slides.
 	DOM.slides = [].slice.call(DOM.content.querySelectorAll('.slides > .slide'));
 	// The off canvas menu button.
@@ -95,7 +96,7 @@
 		// Room moving transition.
 		roomTransition = { speed: '0.4s', easing: 'ease' },
 		// View from top transition.
-		menuTransition = { speed: '1.5s', easing: 'cubic-bezier(0.2,1,0.3,1)' },
+		menuTransition = { speed: '1.85s', easing: 'cubic-bezier(0.2,1,0.3,1)' },
 		// Info transition.
 		infoTransition = { speed: '15s', easing: 'cubic-bezier(0.3,1,0.3,1)' },
 		// Tilt transition
